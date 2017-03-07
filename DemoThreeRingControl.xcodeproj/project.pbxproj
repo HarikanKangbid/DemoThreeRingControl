@@ -10,6 +10,14 @@
 		4BFC25CD1E6E6A140029EC2F /* DemoThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC25C31E6E6A140029EC2F /* DemoThreeRingControl.framework */; };
 		4BFC25D21E6E6A140029EC2F /* DemoThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25D11E6E6A140029EC2F /* DemoThreeRingControlTests.swift */; };
 		4BFC25D41E6E6A140029EC2F /* DemoThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFC25C61E6E6A140029EC2F /* DemoThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BFC25E51E6E6A3E0029EC2F /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25DD1E6E6A3E0029EC2F /* CircularGradient.swift */; };
+		4BFC25E61E6E6A3E0029EC2F /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BFC25DE1E6E6A3E0029EC2F /* coin07.mp3 */; };
+		4BFC25E71E6E6A3E0029EC2F /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25DF1E6E6A3E0029EC2F /* Fanfare.swift */; };
+		4BFC25E81E6E6A3E0029EC2F /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25E01E6E6A3E0029EC2F /* RingLayer.swift */; };
+		4BFC25E91E6E6A3E0029EC2F /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25E11E6E6A3E0029EC2F /* RingTip.swift */; };
+		4BFC25EA1E6E6A3E0029EC2F /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25E21E6E6A3E0029EC2F /* ThreeRingView.swift */; };
+		4BFC25EB1E6E6A3E0029EC2F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC25E31E6E6A3E0029EC2F /* Utilities.swift */; };
+		4BFC25EC1E6E6A3E0029EC2F /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BFC25E41E6E6A3E0029EC2F /* winning.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		4BFC25CC1E6E6A140029EC2F /* DemoThreeRingControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoThreeRingControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFC25D11E6E6A140029EC2F /* DemoThreeRingControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoThreeRingControlTests.swift; sourceTree = "<group>"; };
 		4BFC25D31E6E6A140029EC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFC25DD1E6E6A3E0029EC2F /* CircularGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		4BFC25DE1E6E6A3E0029EC2F /* coin07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin07.mp3; sourceTree = "<group>"; };
+		4BFC25DF1E6E6A3E0029EC2F /* Fanfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		4BFC25E01E6E6A3E0029EC2F /* RingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		4BFC25E11E6E6A3E0029EC2F /* RingTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		4BFC25E21E6E6A3E0029EC2F /* ThreeRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		4BFC25E31E6E6A3E0029EC2F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4BFC25E41E6E6A3E0029EC2F /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,14 @@
 			children = (
 				4BFC25C61E6E6A140029EC2F /* DemoThreeRingControl.h */,
 				4BFC25C71E6E6A140029EC2F /* Info.plist */,
+				4BFC25DD1E6E6A3E0029EC2F /* CircularGradient.swift */,
+				4BFC25DE1E6E6A3E0029EC2F /* coin07.mp3 */,
+				4BFC25DF1E6E6A3E0029EC2F /* Fanfare.swift */,
+				4BFC25E01E6E6A3E0029EC2F /* RingLayer.swift */,
+				4BFC25E11E6E6A3E0029EC2F /* RingTip.swift */,
+				4BFC25E21E6E6A3E0029EC2F /* ThreeRingView.swift */,
+				4BFC25E31E6E6A3E0029EC2F /* Utilities.swift */,
+				4BFC25E41E6E6A3E0029EC2F /* winning.mp3 */,
 			);
 			path = DemoThreeRingControl;
 			sourceTree = "<group>";
@@ -181,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFC25E61E6E6A3E0029EC2F /* coin07.mp3 in Resources */,
+				4BFC25EC1E6E6A3E0029EC2F /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFC25EB1E6E6A3E0029EC2F /* Utilities.swift in Sources */,
+				4BFC25E51E6E6A3E0029EC2F /* CircularGradient.swift in Sources */,
+				4BFC25E91E6E6A3E0029EC2F /* RingTip.swift in Sources */,
+				4BFC25EA1E6E6A3E0029EC2F /* ThreeRingView.swift in Sources */,
+				4BFC25E81E6E6A3E0029EC2F /* RingLayer.swift in Sources */,
+				4BFC25E71E6E6A3E0029EC2F /* Fanfare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +392,7 @@
 		4BFC25DB1E6E6A140029EC2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6A9VMBKJH3;
 				INFOPLIST_FILE = DemoThreeRingControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +405,7 @@
 		4BFC25DC1E6E6A140029EC2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6A9VMBKJH3;
 				INFOPLIST_FILE = DemoThreeRingControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
