@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '9.0'
-  s.name = "DemoThreeRingControl"
+  s.name = 'DemoThreeRingControl'
   s.summary = "A short description of ThreeRingControl."
   s.requires_arc = true
   s.version = "1.0.0"
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   #s.framework = "UIKit"
   #s.dependency 'Alamofire', '~> 2.0'
   #s.dependency 'MBProgressHUD', '~> 0.9.0'
-  s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
-  s.resources    = "ThreeRingControl/*.mp3"
+  s.source_files = "DemoThreeRingControl", "DemoThreeRingControl/**/*.{h,m,swift}"
+  s.resources    = "DemoThreeRingControl/*.mp3"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 end
